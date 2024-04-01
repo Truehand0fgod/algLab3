@@ -115,10 +115,12 @@ int main() {
         ht.addUniqueString(arr[i]);
     }
 
+    ht.printElements();
+
     cout << "Sravneniy = " << comparisonCount << std::endl;
     cout << "Uniq str = " << uniqueCount << std::endl;
 
-    ht.printElements();
+    
 
     return 0;
 }
